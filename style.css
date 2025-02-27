@@ -16,6 +16,7 @@ body{
     margin: 15px 0;
     color: #1ea3d9;
 }
+
 .main{
     width: 100%;
     height: 100%;
@@ -38,6 +39,12 @@ body{
     padding: 1rem;
     border-radius: 4px;
     background-color: #e2f3fc;
+}
+
+.name:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+    color: #1083b9;
 }
 
 .image{
