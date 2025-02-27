@@ -1,11 +1,4 @@
 const main = document.querySelector(".main");
-const section = document.querySelector(".section");
-const nameMain = document.querySelector(".name");
-const actualStatus = document.querySelector(".status");
-const species = document.querySelector(".species");
-const gender = document.querySelector(".gender");
-const image = document.querySelector(".image");
-
 
 apiUrl = "https://rickandmortyapi.com/api/character"
 async function rickAndMorty(){
@@ -38,3 +31,4 @@ async function rickAndMorty(){
 }
 
 rickAndMorty();
+
